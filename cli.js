@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import question from "./bin/question.js";
 import fs from "fs";
 import { execa } from "execa";
