@@ -8,7 +8,6 @@ import { generatePackageTemplate } from "./bin/template/package.js";
 
 async function startup() {
   const config = await question();
-  console.log("config", config);
 
   // 1. 创建项目
   const { dir } = config;
