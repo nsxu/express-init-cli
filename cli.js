@@ -2,7 +2,6 @@
 
 import question from "./bin/question.js";
 import fs from "fs";
-import { execa } from "execa";
 import path from "path";
 import { info, error } from "./bin/util.js";
 import { generateIndexTemplate } from "./bin/template/index.js";
