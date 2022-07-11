@@ -26,7 +26,7 @@ export function generateIndexTemplate(config) {
     });
     
     app.listen(${port}, () => {
-      console.log("listen on ${port}");
+      console.log("listen on ${port}.");
     });
     `;
 

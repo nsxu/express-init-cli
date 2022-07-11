@@ -8,6 +8,10 @@ export function error(msg) {
   console.log(chalk.red(msg));
 }
 
+export function success(msg) {
+  console.log(chalk.green(msg));
+}
+
 export function getMiddlewareStatus(middlewares = []) {
   const map = {
     json: false,

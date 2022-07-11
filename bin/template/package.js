@@ -12,10 +12,12 @@ export function generatePackageTemplate(config) {
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
-    "scripts": {},
     "keywords": [],
     "author": "",
     "license": "ISC",
+    "scripts": {
+      "serve": "node index.js"
+    },
     "dependencies": {
       "express": "^4.18.1",
       ${formdata ? '"multer": "^1.4.4"' : ""}
